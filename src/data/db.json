@@ -1,0 +1,226 @@
+{
+  "users": [
+    {
+      "username": "fadg",
+      "email": "agadf",
+      "password": "gafga",
+      "darktheme": false,
+      "friends": [],
+      "id": 1
+    },
+    {
+      "username": "abdallah",
+      "email": "abdallah@gmail.com",
+      "password": "fasdf",
+      "darktheme": false,
+      "friends": [
+        {
+          "userid": "3"
+        }
+      ],
+      "image": "https://cdn.discordapp.com/attachments/1081290411760439307/1124201652602290186/7515495b-982d-44d2-9931-5a8bbbf27532.jpg",
+      "id": 2
+    },
+    {
+      "username": "issa",
+      "image": "https://cdn.discordapp.com/attachments/1081290411760439307/1123278776323805346/blank-profile-pic.webp",
+      "email": "issa@gmail.com",
+      "password": "Aa@123456",
+      "darktheme": false,
+      "friends": [
+        {
+          "userid": 2
+        }
+      ],
+      "id": 3
+    }
+  ],
+  "posts": [
+    {
+      "username": "abdallah",
+      "userid": 2,
+      "image": "https://cdn.discordapp.com/attachments/1081290411760439307/1123278776323805346/blank-profile-pic.webp",
+      "content": "Test 1 Edited",
+      "edited": true,
+      "likes": [
+        {
+          "name": "abdallah",
+          "userid": 2,
+          "image": "https://cdn.discordapp.com/attachments/1081290411760439307/1123278776323805346/blank-profile-pic.webp"
+        }
+      ],
+      "comments": [],
+      "time": {
+        "hours": 19,
+        "minutes": 25,
+        "seconds": 19
+      },
+      "date": {
+        "month": 6,
+        "day": 28
+      },
+      "id": 1
+    },
+    {
+      "image": "https://cdn.discordapp.com/attachments/1081290411760439307/1123278776323805346/blank-profile-pic.webp",
+      "username": "issa",
+      "userid": 3,
+      "content": "Test 6",
+      "likes": [
+        {
+          "name": "abdallah",
+          "userid": 2,
+          "image": "https://cdn.discordapp.com/attachments/1081290411760439307/1123278776323805346/blank-profile-pic.webp"
+        }
+      ],
+      "comments": [],
+      "time": {
+        "hours": 20,
+        "minutes": 31,
+        "seconds": 4
+      },
+      "date": {
+        "month": 6,
+        "day": 28
+      },
+      "id": 6
+    },
+    {
+      "username": "abdallah",
+      "userid": 2,
+      "image": "https://cdn.discordapp.com/attachments/1081290411760439307/1123278776323805346/blank-profile-pic.webp",
+      "content": "Test 7 Edited",
+      "likes": [
+        {
+          "name": "abdallah",
+          "userid": 2,
+          "image": "https://cdn.discordapp.com/attachments/1081290411760439307/1124201652602290186/7515495b-982d-44d2-9931-5a8bbbf27532.jpg"
+        }
+      ],
+      "comments": [
+        {
+          "content": "Test",
+          "username": "abdallah",
+          "userid": 2,
+          "likes": [],
+          "time": {
+            "hours": 1,
+            "minutes": 31,
+            "seconds": 39
+          },
+          "date": {
+            "month": 6,
+            "day": 29
+          },
+          "id": "2023-06-28T22:31:39.268Z",
+          "image": "https://cdn.discordapp.com/attachments/1081290411760439307/1123278776323805346/blank-profile-pic.webp"
+        },
+        {
+          "content": "gadfg",
+          "username": "abdallah",
+          "userid": 2,
+          "likes": [],
+          "time": {
+            "hours": 5,
+            "minutes": 24,
+            "seconds": 19
+          },
+          "date": {
+            "month": 6,
+            "day": 30
+          },
+          "id": "2023-06-30T02:24:19.543Z",
+          "image": "https://cdn.discordapp.com/attachments/1081290411760439307/1123278776323805346/blank-profile-pic.webp"
+        }
+      ],
+      "time": {
+        "hours": 21,
+        "minutes": 24,
+        "seconds": 14
+      },
+      "date": {
+        "month": 6,
+        "day": 28
+      },
+      "id": 7,
+      "edited": true
+    },
+    {
+      "username": "abdallah",
+      "userid": 2,
+      "image": "https://cdn.discordapp.com/attachments/1081290411760439307/1124201652602290186/7515495b-982d-44d2-9931-5a8bbbf27532.jpg",
+      "content": "Im feeling good afsdfasdf",
+      "edited": true,
+      "likes": [
+        {
+          "name": "abdallah",
+          "userid": 2,
+          "image": "https://cdn.discordapp.com/attachments/1081290411760439307/1124201652602290186/7515495b-982d-44d2-9931-5a8bbbf27532.jpg"
+        }
+      ],
+      "comments": [
+        {
+          "content": "Hello",
+          "username": "abdallah",
+          "userid": 2,
+          "likes": [],
+          "time": {
+            "hours": 8,
+            "minutes": 20,
+            "seconds": 19
+          },
+          "date": {
+            "month": 6,
+            "day": 30
+          },
+          "id": "2023-06-30T05:20:19.566Z",
+          "image": "https://cdn.discordapp.com/attachments/1081290411760439307/1124201652602290186/7515495b-982d-44d2-9931-5a8bbbf27532.jpg"
+        },
+        {
+          "content": "test test",
+          "username": "abdallah",
+          "userid": 2,
+          "likes": [],
+          "time": {
+            "hours": 9,
+            "minutes": 14,
+            "seconds": 37
+          },
+          "date": {
+            "month": 7,
+            "day": 2
+          },
+          "id": "2023-07-02T06:14:37.381Z",
+          "image": "https://cdn.discordapp.com/attachments/1081290411760439307/1124201652602290186/7515495b-982d-44d2-9931-5a8bbbf27532.jpg"
+        },
+        {
+          "content": "fasdfasdf",
+          "username": "abdallah",
+          "userid": 2,
+          "likes": [],
+          "time": {
+            "hours": 9,
+            "minutes": 43,
+            "seconds": 18
+          },
+          "date": {
+            "month": 7,
+            "day": 2
+          },
+          "id": "2023-07-02T06:43:18.612Z",
+          "image": "https://cdn.discordapp.com/attachments/1081290411760439307/1124201652602290186/7515495b-982d-44d2-9931-5a8bbbf27532.jpg"
+        }
+      ],
+      "time": {
+        "hours": 8,
+        "minutes": 12,
+        "seconds": 36
+      },
+      "date": {
+        "month": 6,
+        "day": 30
+      },
+      "id": 8
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+.onecomment-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: rgba(199, 199, 199, 0.615);
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.onecomment-container.dark-theme {
+  background-color: #3a3b3c;
+}
+
+.onecomment-user-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.onecomment-user-image-container {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.onecomment-user-name-container {
+  font-size: 18px;
+}
+
+.onecomment-user-content-container {
+  font-size: 18px;
+}
+
+.onecomment-user-name-time-container{
+    font-size: 14px;
+}
+
+.onecomment-user-time-container{
+    opacity: 0.7;
+}

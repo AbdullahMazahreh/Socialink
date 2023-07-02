@@ -1,0 +1,53 @@
+.signin-body {
+  height: 82vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.signin-body.dark-theme {
+  background-color: rgba(35, 39, 47, 0.95);
+  color: white;
+}
+
+.signin-leftside {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: flex-start;
+}
+
+.signin-leftside img {
+  height: 50px;
+}
+
+.signin-leftside-content {
+  font-size: 28px;
+}
+
+.signin-rightside {
+  width: 30%;
+}
+
+@media (max-width: 1000px) {
+  .signin-rightside {
+    width: 40%;
+  }
+  .signin-leftside {
+    width: 40%;
+  }
+}
+
+@media (max-width: 800px) {
+    .signin-leftside {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .signin-rightside {
+        width: 80%;
+    }
+}

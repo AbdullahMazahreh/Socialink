@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Fragment } from "react";
+import {
+  Landingpage,
+  Signinpage,
+  Postfeed,
+  Profilepage,
+} from "./components/Index";
+import { Route, Routes } from "react-router";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+      <Routes>
+        <Route path="/" element={<Landingpage />}></Route>
+        <Route path="/signin" element={<Signinpage />}></Route>
+        <Route path="/postfeed" element={<Postfeed />}></Route>
+        <Route path="/Profile/:userId" element={<Profilepage />}></Route>
+      </Routes>
+    </Fragment>
   );
 }
 

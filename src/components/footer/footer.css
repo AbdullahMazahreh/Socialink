@@ -1,0 +1,26 @@
+.footer {
+  height: 10vh;
+  background-color: #8ab0fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 400;
+  gap: 5px;
+}
+
+.footer.dark-theme {
+  background-image: conic-gradient(
+    from 90deg at -10% 100%,
+    #2b303b 0deg,
+    #2b303b 90deg,
+    #16181d 1turn
+  );
+  color: white;
+}
+
+@media (max-width: 350px) {
+  .footer {
+    font-size: 18px;
+  }
+}

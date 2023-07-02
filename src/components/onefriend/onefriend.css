@@ -1,0 +1,38 @@
+.friend-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  transition: 0.1s;
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+  -ms-transition: 0.1s;
+  -o-transition: 0.1s;
+  cursor: pointer;
+  padding: 5px 15px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.friend-image-container {
+  height: 45px;
+  width: 45px;
+  overflow: hidden;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.friend-container:hover {
+    background-color: rgb(213, 213, 213);
+}
+
+.friend-container.dark-theme:hover {
+    background-color: rgb(81, 80, 80);
+}

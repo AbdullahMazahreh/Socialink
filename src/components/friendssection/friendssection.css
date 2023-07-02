@@ -1,0 +1,114 @@
+.home-page-friends-container {
+  height: 92vh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 10px;
+  position: sticky;
+  top: 8vh;
+}
+
+.friends-container-header {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-bottom: 1px solid rgb(167, 167, 167);
+  padding-bottom: 5px;
+}
+
+.friends-container-header-profile-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  height: 50px;
+  transition: 0.1s;
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+  -ms-transition: 0.1s;
+  -o-transition: 0.1s;
+}
+
+.friends-container-header-profile-image-container {
+  height: 45px;
+  width: 45px;
+  overflow: hidden;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.friends-container-header-profile-image-container img {
+  height: 100%;
+}
+
+.friends-container-header-profile-name-container {
+  font-size: 20px;
+}
+
+.friends-container-header-friends-link-container {
+  height: 50px;
+  font-size: 20px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  transition: 0.1s;
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+  -ms-transition: 0.1s;
+  -o-transition: 0.1s;
+}
+
+.friends-container-header-friends-link-container-icon {
+  font-size: 40px;
+}
+
+.friends-container-header-profile-container:hover,
+.friends-container-header-friends-link-container:hover {
+  background-color: rgb(213, 213, 213);
+}
+
+.friends-container-header-profile-container.dark-theme:hover,
+.friends-container-header-friends-link-container.dark-theme:hover {
+  background-color: rgb(81, 80, 80);
+}
+
+.friends-container-body {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 10px;
+}
+
+.friends-container-body-title {
+  font-size: 26px;
+}
+
+@media (max-width: 700px) {
+  .home-page-friends-container {
+    height: auto;
+  }
+}
+
+@media (max-width: 450px) {
+  .friends-container-body {
+    width: 200px;
+  }
+}

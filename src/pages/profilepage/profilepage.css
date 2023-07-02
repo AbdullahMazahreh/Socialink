@@ -1,0 +1,256 @@
+.profile-container {
+  padding: 4rem 12rem;
+  min-height: calc(92vh - 8rem);
+}
+
+.profile-container.dark-theme {
+  background-color: rgba(35, 39, 47, 0.95);
+  color: white;
+}
+
+.profile-header-container {
+  display: flex;
+  gap: 20px;
+  border-bottom: 1px solid grey;
+  padding-bottom: 30px;
+  justify-content: space-between;
+}
+
+.profile-header-profilepic-container {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.profile-header-profilepic-container img {
+  height: 100%;
+}
+
+.profile-header-username-firendscounter-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+}
+
+.profile-header-username-container {
+  font-size: 34px;
+}
+
+.profile-header-firendscounter-container {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+.profile-body-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.profile-body-posts-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 30px;
+}
+
+.profile-body-posts-name-container {
+  font-size: 24px;
+}
+
+.profile-body-friends-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 400px;
+}
+
+.profile-body-friends-name-container {
+  font-size: 24px;
+}
+
+.profile-change-picture {
+  position: absolute;
+  font-size: 28px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  box-shadow: 0 0 5px grey;
+  right: 25px;
+  bottom: 25px;
+  cursor: pointer;
+}
+
+.profile-change-picture.dark-theme {
+  background-color: black;
+}
+
+.change-pp-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  height: 400px;
+  width: 500px;
+  background-color: white;
+  box-shadow: 0 0 10px grey;
+  box-sizing: border-box;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  z-index: 1;
+}
+
+.change-pp-popup.dark-theme {
+  background-color: rgb(20, 17, 17);
+  box-shadow: 0 0 10px #16181d;
+  color: white;
+}
+
+.change-pp-popup-header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.change-pp-popup-header-close-container {
+  cursor: pointer;
+  font-size: 26px;
+}
+
+.change-pp-popup-body {
+  flex-grow: 1;
+}
+
+.pp-newurl-input {
+  width: 100%;
+  outline: none;
+  border: none;
+  font-size: 24px;
+}
+
+.pp-newurl-input.dark-theme {
+  background-color: rgb(20, 17, 17);
+  color: white;
+}
+
+.pp-change-cta-btn {
+  padding: 10px 0;
+  font-size: 16px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.pp-change-cta-btn.dark-theme {
+  color: rgba(0, 0, 0, 0.771);
+}
+
+.profile-header-leftside-container {
+  display: flex;
+  gap: 15px;
+}
+
+.add-friend-btn-cta {
+  padding: 10px;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  background-color: #6893ea;
+  color: white;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+  cursor: pointer;
+}
+
+.add-friend-btn-cta:hover {
+  box-shadow: 0 0 10px #6893ea;
+}
+
+.add-friend-btn-cta.dark-theme {
+  background-color: white;
+  color: black;
+}
+
+.add-friend-btn-cta.dark-theme:hover {
+  box-shadow: 0 0 10px white;
+}
+
+.profile-header-rightside-container {
+  display: flex;
+  align-items: flex-end;
+}
+
+@media (max-width: 750px) {
+  .profile-body-container {
+    flex-direction: column-reverse;
+    padding: 4rem 0;
+    align-items: center;
+  }
+}
+
+@media (max-width: 750px) {
+  .profile-container {
+    padding: 4rem 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .profile-header-profilepic-container {
+    height: 100px;
+    width: 100px;
+  }
+  .profile-change-picture {
+    font-size: 20px;
+    padding: 5px;
+    right: 5px;
+    bottom: 5px;
+  }
+  .profile-header-username-container{
+    font-size: 28px;
+  }
+  .profile-header-firendscounter-container{
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 400px) {
+    .profile-body-friends-container{
+        width: auto;
+    }
+
+    .profile-header-container{
+        flex-direction: column;
+    }
+}
